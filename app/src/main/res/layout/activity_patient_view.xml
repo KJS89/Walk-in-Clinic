@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/select_service_background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textNamePatient"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="Name: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textPhoneNumberPatient"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="Phone Number: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textViewInsurance"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="Insurance: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textViewPayment"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="Payment: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You already have the following appointment:"
+                android:textColor="#2196F3"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ListView
+                android:id="@+id/list_of_appoiuntments"
+                android:layout_width="match_parent"
+                android:layout_height="236dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#A90DA092"
+                    android:text="BOOK AN APPOINTMENT"
+                    android:textColor="#F7F4F4" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#A67E36C5"
+                android:text="EDIT insurance/payment"
+                android:textColor="#F7F4F4" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:background="#BCE96309"
+                android:text="log out" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add_service_dialog"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/search_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="379dp"
+                    android:layout_height="wrap_content"
+                    android:text="role" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Space
+                        android:layout_width="112dp"
+                        android:layout_height="94dp" />
+
+                    <RadioGroup
+                        android:id="@+id/rg_roles"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/radioButton9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="doctor" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="nurse" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="staff" />
+                    </RadioGroup>
+                </TableRow>
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="time" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Space
+                        android:layout_width="107dp"
+                        android:layout_height="match_parent" />
+
+                    <EditText
+                        android:id="@+id/editText2"
+                        android:layout_width="51dp"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:hint="hour"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/textView74"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="   :"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                    <EditText
+                        android:id="@+id/editText12"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="min"
+                        android:inputType="textPersonName" />
+                </TableRow>
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="workday" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp">
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent" />
+
+                    <RadioGroup
+                        android:id="@+id/rg_weekdays"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButton19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Monday"
+                            android:textSize="11sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tuesday"
+                            android:textSize="11sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Wednesday"
+                            android:textSize="11sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Thursday"
+                            android:textSize="11sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Friday"
+                            android:textSize="11sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <RadioButton
+                    android:id="@+id/radioButton24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Clinic Name" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp">
+
+                    <Space
+                        android:layout_width="92dp"
+                        android:layout_height="45dp" />
+
+                    <EditText
+                        android:id="@+id/editText13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Clinic Name"
+                        android:inputType="textPersonName" />
+                </TableRow>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#A67E36C5"
+                android:text="Search"
+                android:textColor="#F8F6F6" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The search result are the following: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="18sp" />
+
+            <ListView
+                android:id="@+id/listClinics2"
+                android:layout_width="match_parent"
+                android:layout_height="76dp" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#A90DA092"
+                android:text="@android:string/cancel"
+                android:textColor="#F8F6F6" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

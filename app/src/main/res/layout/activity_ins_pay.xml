@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appointment"
+    android:orientation="vertical">
+<!--
+    <TextView
+        android:id="@+id/textNamePatient"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center|center_horizontal|left|center_vertical" />
+
+    <TextView
+        android:id="@+id/textAddressPatient"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center|center_horizontal|left|center_vertical" />
+
+    <TextView
+        android:id="@+id/textPhoneNumberPatient"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center|center_horizontal|left|center_vertical" />
+
+    <TextView
+        android:id="@+id/textClinicName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center|center_horizontal|left|center_vertical" />
+
+    <TextView
+        android:id="@+id/textClinicAddress"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center|center_horizontal|left|center_vertical" />
+
+    <TextView
+        android:id="@+id/textService"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center|center_horizontal|left|center_vertical" />
+-->
+    <TextView
+        android:id="@+id/textInsurance"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center|center_horizontal|left|center_vertical"
+        android:text="InsuranceType" />
+
+    <RadioGroup
+        android:id="@+id/rg_insurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_OHIP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OHIP" />
+
+        <RadioButton
+            android:id="@+id/rb_UHIP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UHIP" />
+
+        <RadioButton
+            android:id="@+id/rb_private_ins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Private Insurance" />
+
+        <RadioButton
+            android:id="@+id/rb_no_ins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Insurance" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textPayment"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center|center_horizontal|left|center_vertical"
+        android:text="PaymentMethod" />
+
+    <RadioGroup
+        android:id="@+id/rg_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_credit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CreditCard" />
+
+        <RadioButton
+            android:id="@+id/rb_debit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DebitCard" />
+
+        <RadioButton
+            android:id="@+id/rb_cash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cash" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ins_pay_confirm"
+            android:layout_width="426dp"
+            android:layout_height="wrap_content"
+            android:background="#A90DA092"
+            android:text="confirm"
+            android:textColor="#F8F5F5" />
+
+    </LinearLayout>
+
+</LinearLayout>

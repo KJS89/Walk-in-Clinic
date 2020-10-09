@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:id="@+id/employee_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/doctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="doctor" />
+
+        <RadioButton
+            android:id="@+id/nurse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nurse" />
+
+        <RadioButton
+            android:id="@+id/staff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="staff" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A67E36C5"
+        android:text="Confirm"
+        android:textColor="#F7F4F4" />
+</LinearLayout>

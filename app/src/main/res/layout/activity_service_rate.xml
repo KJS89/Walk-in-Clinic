@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/employee_list_background"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="29dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please set your hourly rate for your services"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_rate"
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A67E36C5"
+        android:text="Confirm"
+        android:textColor="#F7F4F4" />
+</LinearLayout>

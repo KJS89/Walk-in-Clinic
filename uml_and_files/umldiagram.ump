@@ -1,0 +1,46 @@
+class Person{
+  ID id;
+  name;
+  username;
+  email;
+  address;
+  phoneNumber;
+}
+
+class Patient{
+    isA Person;
+    insuranceType;
+    paymentMethod;
+}
+
+class Employee{
+    isA Person;
+    role;
+    workingHours;
+    service;
+    clinicName;
+    * -- 1 Clinic;
+}
+
+class Administrator{
+     isA Person;
+     1 -- * Patient;
+     1 -- * Employee;
+     1 -- 5..* Service;
+     1 -- * Clinic;
+}
+class Service{
+     * -- * Employee;
+     name;
+     role;
+}
+
+class Clinic{
+  name;
+  address;
+  phoneNumber;
+  workingHours;
+  service;
+  * -- * Patient;
+  1 -- 1..* Service;
+}

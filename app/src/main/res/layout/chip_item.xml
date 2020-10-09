@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chip_item"
+    style="@style/Theme.MaterialComponents.Light.DarkActionBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checkable="true"
+    android:checked="false"
+    android:clickable="true"
+    app:checkedIconEnabled="false"
+    app:checkedIconVisible="true"
+    app:chipIconEnabled="false"
+    app:chipIconVisible="true">
+
+</com.google.android.material.chip.Chip>
+
+
+    <!--<android.support.design.chip.Chip-->

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin_activity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Welcome Admin !"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Services:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="24sp" />
+
+            <ListView
+                android:id="@+id/listViewServices"
+                android:layout_width="match_parent"
+                android:layout_height="139dp">
+
+            </ListView>
+
+            <Button
+                android:id="@+id/buttonAddService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9C2E4CDF"
+                android:text="add service"
+                android:textColor="#F7F4F4" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employees:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="24sp" />
+
+            <ListView
+                android:id="@+id/listViewEmployee"
+                android:layout_width="match_parent"
+                android:layout_height="172dp">
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patients:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="24sp" />
+
+            <ListView
+                android:id="@+id/listViewPatients"
+                android:layout_width="match_parent"
+                android:layout_height="147dp">
+
+            </ListView>
+
+            <Button
+                android:id="@+id/buttonLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#A67E36C5"
+                android:text="log out"
+                android:textColor="#F7F4F4" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/employee_list_background"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="28dp" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Please create a clinic name:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextClinicName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="clinic name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selcet a role for you"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/rg_employee_role"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/doctor3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="doctor" />
+
+        <RadioButton
+            android:id="@+id/nurse3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="nurse" />
+
+        <RadioButton
+            android:id="@+id/staff3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="staff" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textInsurance"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center|center_horizontal|left|center_vertical"
+        android:text="Select a insurance that you accepted"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+
+    <RadioGroup
+        android:id="@+id/rg_employee_ins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/cb_employee_ohip"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="OHIP" />
+
+        <RadioButton
+            android:id="@+id/cb_employee_uhip"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="UHIP" />
+
+        <RadioButton
+            android:id="@+id/cb_employee_private"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Private Insurance" />
+
+        <RadioButton
+            android:id="@+id/cb_employee_no"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="No Insurance" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textPayment"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center|center_horizontal|left|center_vertical"
+        android:text="Select the payments that you accepted"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+
+    <CheckBox
+        android:id="@+id/cb_credit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CreditCard" />
+
+    <CheckBox
+        android:id="@+id/cb_debit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DebitCard" />
+
+    <CheckBox
+        android:id="@+id/cb_cash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cash" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ins_pay_confirm"
+            android:layout_width="426dp"
+            android:layout_height="wrap_content"
+            android:background="#A90DA092"
+            android:text="confirm"
+            android:textColor="#F8F5F5" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

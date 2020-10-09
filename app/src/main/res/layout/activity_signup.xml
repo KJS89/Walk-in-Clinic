@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setupbackground"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/new_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/new_user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your new user name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/new_pwd_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your new password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/confirm_pwd_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="please confirm your new password"
+        android:inputType="textPassword" />
+
+    <RadioGroup
+        android:id="@+id/radioRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/patient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#000000"
+            android:text="Patient" />
+
+        <RadioButton
+            android:id="@+id/employee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/new_email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your phone number"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#947E36C5"
+        android:text="Confirm"
+        android:textColor="#F8F6F6" />
+
+    <Button
+        android:id="@+id/buttonSignUpCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A90DA092"
+        android:text="@android:string/cancel"
+        android:textColor="#F5F3F3" />
+
+</LinearLayout>

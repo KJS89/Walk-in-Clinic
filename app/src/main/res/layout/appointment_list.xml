@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView115"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:text="Clinic name: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/list_appoint_clinicname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView116"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="Service Name: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/list_appoint_service_name"
+            android:layout_width="281dp"
+            android:layout_height="match_parent"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView117"
+            android:layout_width="131dp"
+            android:layout_height="match_parent"
+            android:text="Date: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/list_appoint_date"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:textSize="18sp" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView118"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="Waiting time: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/list_appoint_wait"
+            android:layout_width="282dp"
+            android:layout_height="match_parent"
+            android:textSize="18sp" />
+
+    </TableRow>
+
+</LinearLayout>

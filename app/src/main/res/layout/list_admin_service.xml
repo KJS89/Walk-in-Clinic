@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView181"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:text="Service: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/list_admin_servicename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView180"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:text="Role: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/list_service_role"
+            android:layout_width="313dp"
+            android:layout_height="match_parent"
+            android:textSize="18sp" />
+    </TableRow>
+
+
+</LinearLayout>
